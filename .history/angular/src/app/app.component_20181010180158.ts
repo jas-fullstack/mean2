@@ -9,6 +9,6 @@ export class AppComponent {
   title = 'app';
   storedPosts = [];
   onPostAdded(post){
-    this.storedPosts.push(post);
+    this.posts.push(post);
   }
 }

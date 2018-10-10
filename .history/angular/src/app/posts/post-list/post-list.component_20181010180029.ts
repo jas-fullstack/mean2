@@ -13,7 +13,6 @@ export class PostListComponent implements OnInit {
      {title:'third title',content:'this is third content' },
   ] 
   */
-  @Input() posts = [];
   constructor() { }
 
   ngOnInit() {

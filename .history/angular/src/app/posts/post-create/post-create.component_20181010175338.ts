@@ -10,7 +10,6 @@ export class PostCreateComponent implements OnInit {
   entredTitle = ''; 
   entredContent = '';
   @Output() postCreated = new EventEmitter();
-  
   constructor() { }
 
   ngOnInit() {
